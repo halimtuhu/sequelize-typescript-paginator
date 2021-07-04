@@ -27,7 +27,6 @@ export class SequelizePaginator {
 
     const total = await model.count(options);
     const items = await model.findAll(options);
-    console.log(options);
 
     return {
       data: items,
