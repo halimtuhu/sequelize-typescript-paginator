@@ -21,5 +21,8 @@
     "sequelize-typescript": "2.1.0",
     "@types/validator": "*",
     "reflect-metadata": "*"
+  },
+  "repository": {
+    "url": "https://github.com/halimtuhu/sequelize-typescript-paginator"
   }
 }
