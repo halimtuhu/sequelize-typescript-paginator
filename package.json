@@ -1,0 +1,25 @@
+{
+  "name": "sequelize-typescript-paginator",
+  "version": "0.1.0",
+  "description": "Paginator utility for sequelize-typescript package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sequelize",
+    "typescript",
+    "pagination",
+    "paginator",
+    "paginate"
+  ],
+  "author": "halimtuhu",
+  "license": "ISC",
+  "devDependencies": {
+    "sequelize": "6.6.2",
+    "sequelize-typescript": "2.1.0",
+    "@types/validator": "*",
+    "reflect-metadata": "*"
+  }
+}
