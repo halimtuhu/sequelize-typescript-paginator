@@ -55,3 +55,9 @@ async fetch(): PaginationResponse {
     );
 }
 ```
+
+## Todo List
+
+- [ ] Add test
+- [ ] Use 2 parameters instead of 3
+- [ ] Configurable default `perPage` value
