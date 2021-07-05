@@ -1,6 +1,6 @@
 {
   "name": "sequelize-typescript-paginator",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Paginator utility for sequelize-typescript package",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
