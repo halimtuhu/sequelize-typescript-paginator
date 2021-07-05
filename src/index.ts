@@ -22,10 +22,10 @@ export class SequelizePaginator {
     delete options.limit;
     delete options.offset;
 
-    options.limit = meta.perPage;
-    options.offset = (meta.page - 1) * (meta.perPage + 1);
-
     const total = await model.count(options);
+
+    options.limit = meta.perPage;
+    options.offset = (meta.page - 1) * meta.perPage;
     const items = await model.findAll(options);
 
     return {
